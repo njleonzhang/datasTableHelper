@@ -1,0 +1,49 @@
+table.dataTable {
+  border-bottom: solid 1px #bbb !important;
+}
+table.dataTable thead tr th {
+  border-right: solid 1px #bbb;
+  border-top: solid 1px #bbb;
+  border-bottom: none;
+  background-color: #eee;
+}
+table.dataTable thead tr th:first-child {
+  border-left: solid 1px #bbb;
+}
+table.dataTable thead.datastable-filters th {
+  padding: 4px 6px;
+  background-color: white;
+}
+table.dataTable thead.datastable-filters th input {
+  padding: 4px 6px;
+}
+table.dataTable thead.datastable-filters th input:focus {
+  border-color: #0E90D2;
+}
+table.dataTable tbody tr td {
+  word-break: break-word;
+  border-right: solid 1px #bbb !important;
+  border-top: solid 1px #bbb !important;
+}
+table.dataTable tbody tr td:first-child {
+  border-left: solid 1px #bbb !important;
+}
+table.dataTable tbody tr.even td {
+  background-color: #eee;
+}
+table.dataTable tbody tr.odd td {
+  background-color: white;
+}
+.dataTables_wrapper .dataTables_info {
+  float: right !important;
+  padding-top: 15px;
+}
+.dataTables_wrapper .dataTables_paginate {
+  float: left !important;
+  text-align: left;
+}
+.dataTables_wrapper .dataTables_length {
+  float: right;
+  margin-top: 10px;
+  margin-right: 20px;
+}
