@@ -29,7 +29,7 @@
       if (i == 0 && enableCheckbox) {
         inputs += '<th></th>';
       } else {
-        inputs += '<th><input style="width: 100%" data-index="' + i + '"></th>';
+        inputs += '<th><input style="width: 80%" data-index="' + i + '"></th>';
       }
     });
     inputs += '</tr></thead>';
